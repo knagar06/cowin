@@ -1,0 +1,60 @@
+diff --git a/cowin.css b/cowin.css
+index 87a1452..a5c3572 100644
+--- a/cowin.css
++++ b/cowin.css
+@@ -59,9 +59,9 @@ body{
+ /* Navigation Bar: Logo and Image */
+ 
+ 
+-#logo img{
++#logo {
+     /* height: 59px; */
+-    margin: 1px 8px 0px 0px;
++    margin: 0;
+     width: 13.04px;
+     height: 20px;
+     vertical-align: middle;
+@@ -88,6 +88,7 @@ header #toppart{
+     display: flex;
+     
+     align-items: center;
++    justify-content: space-between;
+ }
+ 
+ 
+@@ -499,3 +500,6 @@ footer{
+     font-size: 13px;
+ background-color: #333;
+     }
++.center {
++    margin: auto;
++}
+diff --git a/index.html b/index.html
+index 1bef821..d796b0c 100644
+--- a/index.html
++++ b/index.html
+@@ -9,11 +9,11 @@
+     <body>
+         <header id="toppart">
+             <nav id="navbar">
+-                <div id="logo">
+-                    <img src="https://prod-cdn.preprod.co-vin.in/assets/images/emblem_white.png" alt="logo ">
+-                </div>
+-                <ul id="name_logo">
+-                    <li><a href="https://www.india.gov.in/">Ministry of Health and Family Welfare</a></li>
++                <ul>
++                    <li>
++                        <img id="logo" src="https://prod-cdn.preprod.co-vin.in/assets/images/emblem_white.png" alt="logo ">
++                    </li>
++                    <li id="name_logo"><a href="https://www.india.gov.in/">Ministry of Health and Family Welfare</a></li>
+                 </ul>
+                 <ul>
+                     <li class="item"><a href="https://www.cowin.gov.in/faq">FAQ</a></li>
+@@ -133,6 +133,7 @@
+                     <p class="center">Please follow our Frequently asked questions <a href="https://www.cowin.gov.in/faq" >(FAQ)</a></p>
+                 </div>
+             </div>
++            <br>
+             <!-- button -->
+             <div class="button">
+                 <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/User_Guide_Citizen%20registration_18+.pdf" target="_blank"><button class="btn"><p>Know how to book your appointment</p></button></a>

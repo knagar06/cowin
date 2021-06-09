@@ -59,9 +59,9 @@ body{
 /* Navigation Bar: Logo and Image */
 
 
-#logo img{
+#logo {
     /* height: 59px; */
-    margin: 1px 8px 0px 0px;
+    margin: 0;
     width: 13.04px;
     height: 20px;
     vertical-align: middle;
@@ -88,6 +88,7 @@ header #toppart{
     display: flex;
     
     align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -499,3 +500,6 @@ footer{
     font-size: 13px;
 background-color: #333;
     }
+.center {
+    margin: auto;
+}
