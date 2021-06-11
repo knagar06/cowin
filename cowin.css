@@ -483,11 +483,14 @@ p{
 }
 
 .client-item img{
-    padding-top: 2em;
+    padding-top: 4em;
     align-items: center;
  width: 8em;
- height: 6em;
+ max-height: 6.5em;
 
+}
+.img3 img{
+    padding-top: 1em;
 }
 /* footer */
 footer{
