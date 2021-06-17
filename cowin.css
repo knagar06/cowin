@@ -1232,8 +1232,7 @@ background-color: #343b49;
 
 /* mediaquery phone*/
 
-@media  screen and (max-width: 500px) and (min-width:311px)
-{
+@media  screen and (min-width:300px) and (max-width: 500px) {
    .navbar .right{
     display: none;
    }
@@ -1482,10 +1481,10 @@ footer div{
 div .left{
     padding-left: 15%;
     justify-content: center;
-    padding-bottom: 0%;
+    padding-bottom: 6%;
 }
 div .fot{
-    padding-right: 26%;
+    padding-right: 29%;
     padding-top: 0%;
     justify-content: center;
 }
