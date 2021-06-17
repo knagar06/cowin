@@ -489,21 +489,982 @@ p{
  max-height: 6.5em;
 
 }
+
 .img3 img{
     padding-top: 1em;
 }
+
+
 /* footer */
 footer{
-    height: 25vh;
-    padding-top: 5em;
-    padding-right: 20px;
-    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+footer .left{
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-left: 180px;
+    
     color: white;
-    text-align: right ;
-    font-size: 13px;
-background-color: #333;
+    text-align: left ;
+    font-size: 14px;
+background-color: #343b49;
+    }
+
+
+footer .fot{
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-right: 180px;
+    
+    color: white;
+    text-align: right;
+    ;
+    font-size: 14px;
+background-color: #343b49;
     }
     
 .center {
     margin: auto;
+}
+
+
+
+
+
+
+/* mediaquery */
+
+@media  screen and (min-width:400px) and (max-width:766px) 
+{
+
+    html,body{
+        overflow-x: hidden;
+    }
+    .logo2 img{
+        width: 15%;
+        height: auto;
+        float: left;
+    }
+
+    .top2{
+        width: 75%;
+    float: none;
+    left: 0;
+    line-height: 1;
+    position: relative;
+    top: 0;
+    }
+
+  .register{
+      padding: 1px 0px;
+      font-weight: 0;
+      
+      vertical-align: middle;
+  }
+
+  .yellowbtn{
+   
+    line-height: inherit!important;
+    display: block;
+    font-size: 2px;
+    font-weight: normal;
+  }
+
+/* helpline */
+.help2{
+    flex-direction: column;
+}
+.help1 h3{
+    text-align: center;
+
+    
+}
+
+.number, .health, .Child , .mental, .old{
+    margin: 0px 10px 10px 0px;
+    
+   
+}
+
+/* banner */
+#main_image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    border-style: none;
+}
+
+
+
+
+/* slots */
+
+h3{
+    font-size: 18px;
+    margin-top: 0;
+    font-weight:700 ;
+    padding-top: 0%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.inp{
+    width: 96%;
+    padding: 5px;
+}
+
+
+/* how it works  */
+.works-container{
+    min-height: 1400px;
+    padding-top: 10px;
+}
+
+.works-container img{
+    width: 40%;
+    height: auto;
+}
+
+
+ #works{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 1240px!important;
+
+    flex-direction: column;
+    
+}
+
+
+.box, .text-center{
+    min-height: 100%;
+    align-items: center;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+/* data */
+
+
+ #partner-section div{
+display: block;   
+}
+
+.client-item img{
+width: 85%;
+height: auto;
+padding: 20px;
+}
+
+.client-item img3 img{
+    height: 50%;
+    width: auto;
+}
+
+footer{
+    height: 1%;
+
+}
+
+
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+        font-family: Roboto,sans-serif!important;
+    
+}
+ 
+ 
+    /* width */
+::-webkit-scrollbar {
+ width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #d1d1d1; 
+  border-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:   #999393; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000; 
+}
+body{
+       overflow-x: hidden;
+} 
+
+
+/* CSS Variables */
+
+
+/* Navigation Bar */
+.navbar{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    background-color: #002060;
+    /* position: sticky; */
+    position: relative;
+    margin: auto;
+    padding-left: 80px;
+
+}
+
+#name_logo{
+    font-size: 14px;
+}
+
+
+/* Navigation Bar: Logo and Image */
+
+
+#logo {
+    /* height: 59px; */
+    margin: 0;
+    width: 13.04px;
+    height: 20px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+/* Navigation Bar: List Styling */
+
+header #toppart{
+    display: table;
+    width: 100%;
+    padding: 10px 0px;
+}
+header #toppart{
+    width: 100%;
+    height: 100px;
+  
+}
+
+.navbar {
+    position: relative;
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar ul{
+    display: flex;
+    padding: 10px 0px;
+   
+}
+
+.navbar ul li{ 
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar ul li a{
+    color: white;
+    display: block;
+    padding: 0px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a .item{
+    float: right;
+}
+
+.top2{
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    box-shadow: 0px 2px #D1D1D1;
+}
+
+.register a{
+    text-decoration: none;
+    color: #002060;
+    font-weight: bold;
+    background-color: #ffc107;
+    float: right;
+    font-size: 16px;
+    text-align: left;
+    padding: 8px 18px;
+    margin: 25px 40px;
+    border-radius: 5px;
+}
+
+.logo2 img{
+    position: absolute;
+    width: 183px;
+    height: 55px;
+    margin-top: 15px ;
+    left: 15px;
+}
+
+.help1{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 17px;
+}
+
+
+.help2{
+    display: flex;
+
+    justify-content: center;
+    flex-basis: 20em;
+}
+.number,.health, .Child, .mental, .old{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.help2 img{
+    width: 45px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.num{
+    font-size: 15px;
+    padding-top: 10px;
+    color: #124BBD;
+    letter-spacing: 0.5px;
+}
+
+
+#main_image{
+    margin-top: 1em;
+    background-image: url(img/Banner.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 22em;
+}
+
+
+/*/Slot/
+*/
+.slot{
+     margin: 2em;
+     margin-bottom: 4em;
+     text-align: center;
+     font-size: 16px;
+     font-weight: 700;
+}
+
+.search{
+    padding: 0px 2em;
+    margin: 23px 25em;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    flex-basis: 10%z;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+.pin{
+    padding: 15px 32px;
+    background-color: #002060;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.in{
+    padding: 10px 28em;
+    padding-left: 10px;
+    align-content: left;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    color: black;
+}
+.bt{
+    margin-top: 10px;
+    margin-left: 6px;
+      text-align: center;
+    padding: 7px;
+    background: #ECECEC;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #360F7D;
+}
+
+/* how it works */
+
+
+.works-container{
+    height: 80vh;
+    background: #fdbc00 url("https://www.cowin.gov.in/assets/images/Vectorbg.png");
+    background-size: contain ;
+    padding: 50px;
+    color: #000;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.works-container div {
+    display: block;
+    text-align: center;
+}
+
+
+.howitworkcls{
+color: #374957!important;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+
+.text-center {
+    text-align: center!important;
+}
+
+.box {
+    padding-top:30px ;
+    min-height: 100%;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 20px;
+    margin-bottom: 15px; */
+}
+
+
+#works{
+  
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 20px;
+    align-items: center;
+}
+.box{
+    flex: 1;
+}
+
+#works .box img{ 
+   height: 130px;
+   margin: auto;
+   display: block;
+   text-align: center;
+}
+
+
+#works .box h2{
+    padding-top: 35px;
+    color: #000!important;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+#works .box p{
+    
+    padding-top: 10px;
+    width: 13em;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+
+
+
+/* button */
+.button{
+ 
+    align-items: center;
+ 
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+    margin:10px 0px 0px;
+    padding: 6px;
+    border: 10px transparent ;
+
+}
+.btn{
+    text-align: center;
+    padding: 10px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #360F7D;
+
+}
+
+
+.report{
+
+    background-color: #f4f4f4;
+    padding-bottom: 1em;
+    
+}
+
+
+#main{
+    display: flex;
+    height: 35vh;
+    align-items: center;
+
+    justify-content: space-between;
+    flex-basis: 10px;
+   
+}
+
+.link{
+    
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin: 10px 40% 30px 40%;
+    margin-bottom: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #002060;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.link a:hover{
+    color: #ffc107;
+     
+
+}
+
+.link:hover{
+    border: 1px solid #002060;
+}
+
+
+.first, .second , .third, .fourth,.fifth,.sixth{
+    display: flex;
+    padding: 0 1em;
+    border-left: 2px solid #d3d3d3;
+    justify-content: space-around;
+    flex-basis: 3em;
+    flex: 1;
+}
+
+.sixth img{
+    width: 5em;
+}
+
+p{
+    padding-left: 10px;
+}
+.img{
+        padding: 0 3px;
+    width: 3em;
+    height: 3em;
+
+    }
+
+.up{
+    font-size: 12px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.middle{
+    font-size: 19px;
+    font-weight: bold;
+}
+.first .middle{
+    color:#002060 ;
+}
+
+.second .middle{
+    color:#8c470e ;
+}
+
+.third .middle{
+    color:#002060 ;
+}
+
+.fourth .middle{
+    color:#145e04 ;
+}
+
+.fifth .middle{
+    color:#942d1e ;
+}
+
+.sixth .middle{
+    color:#eb8015 ;
+}
+.down{
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+#partner-section{
+    text-align: center;
+    margin: 3em 40px 0 40px;
+    padding: 0 0 3em 0;
+    font-size: 19px;
+}
+
+
+#clients{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px 18%;
+}
+
+.client-item img{
+    padding-top: 4em;
+    align-items: center;
+ width: 8em;
+ max-height: 6.5em;
+
+}
+
+.img3 img{
+    padding-top: 1em;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+footer .left{
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-left: 180px;
+    
+    color: white;
+    text-align: left ;
+    font-size: 14px;
+background-color: #343b49;
+    }
+
+
+footer .fot{
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-right: 180px;
+    
+    color: white;
+    text-align: right ;
+    font-size: 14px;
+background-color: #343b49;
+    }
+    
+.center {
+    margin: auto;
+}
+
+
+
+
+
+
+/* mediaquery */
+
+@media  screen and (max-width: 500px) 
+{
+   .navbar .right{
+    display: none;
+   }
+   .navbar {
+    height: 5vh;
+   }
+
+
+    .logo2 img{
+        width: 15%;
+        height: auto;
+        float: left;
+    }
+
+    .top2{
+    float: none;
+    left: 0;
+    line-height: 1;
+    position: relative;
+    top: 0;
+    }
+#main_image {
+    background-size: contain;
+    height: 8em;
+}
+    .search{
+        margin: 0;
+    }
+    .in{
+        padding: 5px 5em;
+    }
+.link{
+    margin-top: 10em;
+    margin-left: 0;
+    padding: 1.4em 3em 1.4em 0em;
+}
+.report {
+    background-color: #f4f4f4;
+    padding-bottom: 1em;
+    height: 27em;
+}
+.link a {
+    text-decoration: none;
+    color: #002060;
+
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 1em 0 0;
+    position: absolute;
+    text-align: left;
+}
+  .register{
+      padding: 1px 0px;
+      font-weight: 0;
+      
+      vertical-align: middle;
+  }
+
+  .yellowbtn{
+   
+    line-height: inherit!important;
+    display: block;
+    font-size: 2px;
+    font-weight: normal;
+  }
+
+/* helpline */
+.help2{
+    flex-direction: column;
+}
+.help1 h3{
+    text-align: center;
+
+    
+}
+
+.number, .health, .Child , .mental, .old{
+    margin: 0px 10px 10px 0px;
+    
+   
+}
+
+/* banner */
+#main_image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    border-style: none;
+}
+
+
+
+
+/* slots */
+
+h3{
+    font-size: 18px;
+    margin-top: 0;
+    font-weight:700 ;
+    padding-top: 0%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.inp{
+    width: 96%;
+    padding: 5px;
+}
+
+
+/* how it works  */
+.works-container{
+    min-height: 1400px;
+    padding-top: 10px;
+}
+
+.works-container img{
+    width: 40%;
+    height: auto;
+}
+
+
+ #works{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 1240px!important;
+
+    flex-direction: column;
+    
+}
+#main{
+    flex-direction: column;
+}
+
+.box, .text-center{
+    min-height: 100%;
+    align-items: center;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+/* data */
+
+
+ #partner-section div{
+display: block;   
+}
+
+.client-item img{
+width: 85%;
+height: auto;
+padding: 20px;
+}
+
+.client-item img3 img{
+    height: 50%;
+    width: auto;
+}
+
+footer{
+    height: 1%;
+
+}
+
+
+}
+
+/* tablet */
+
+
+
+@media  screen and  (min-width:768px) and (max-width:850px) 
+{
+    
+  html,body{
+      overflow-x: hidden;
+  }      
+       
+    
+    .top2{
+        width: 100%;
+    }
+
+.logo2 img{
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+   
+}
+.register{
+visibility: hidden;
+}
+
+.help2{
+    -webkit-box-pack: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+    justify-content: center;
+    flex-basis: 20em;
+}
+.help1{
+    text-align: center;
+}
+.number, .health, .Child, .mental, .old  {
+    padding-top: 15px;
+    font-weight: 600;
+    
+}
+
+#main_image img{
+    width: 100%;
+    height: 50%;
+  vertical-align: middle;
+    border-style: none;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+   
+  
+}
+
 }
