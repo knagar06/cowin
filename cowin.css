@@ -1059,7 +1059,7 @@ color: #374957!important;
 
 #main{
     display: flex;
-    height: 35vh;
+    /* height: 35vh; */
     align-items: center;
 
     justify-content: space-between;
@@ -1454,6 +1454,11 @@ div .link{
 }
 .link a{
     padding-bottom: 10px;
+  
+}
+.link{
+    margin: 156px 20px;
+    padding-left: 0;
 }
 
 /* our-parttners */
@@ -1549,20 +1554,129 @@ visibility: hidden;
     
 }
 
-#main_image img{
-    width: 100%;
-    height: 50%;
-  vertical-align: middle;
-    border-style: none;
+#main_image {
+    background-size: contain;
+    height: 14em;
+    padding-top: 10;
+   
 }
-
-.search {
-    width: 100%;
+.slot h3{
+    padding-top: 0;
+    margin: 0;
+}
+.search 
+ {
+    width: 80%;
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
+    justify-content: center;
+    flex-grow: 0;
+    padding-left: 0%;
+    padding-right: 100px;
    
   
 }
+#works{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+     grid-auto-rows: minmax(25px, auto);
+/* padding-top: 35px;
+padding-bottom: 15px;
+border-left: 0; */
+}
+.works-container{
+    padding-left: 0%;
+}
+
+#works{
+   
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+/* data */
+#main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+padding-top: 35px;
+padding-bottom: 15px;
+border-left: 0;
+}
+
+ .link{
+    margin: 45px 40% 30px 30%;
+}
+
+#clients{
+   
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    align-items: left;
+}
+#clients {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 18px 3%;
+    vertical-align: middle;
+}
+.pin {
+    padding: 14px 48px;
+}
+.search {
+   
+    padding-right: 36px;
+}
+.search {
+    
+    margin: 23px 4em;
+}
+
+.client-item img{
+    padding: 4px;
+    padding-top: 70px;
+}
+ .img3{
+ padding: 0px;
+ 
+ height: 50px;
+ width: auto;
+}
+
+footer div {
+   
+    padding: 5px 20px;
+}
+
+footer .left {
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    background-color: #343b49;
+}
+
+footer .fot {
+    
+    padding-right: 17px;
+}
+
 
 }
